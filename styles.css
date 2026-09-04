@@ -1,0 +1,1453 @@
+/* =========================================================
+   HOMESURE 247
+   DESKTOP + RESPONSIVE
+   Firefox 28 compatible
+========================================================= */
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background: #ffffff;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================================================
+   MAIN SITE
+========================================================= */
+
+.site {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+    height: 82px;
+    background: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.nav {
+    width: 100%;
+    height: 82px;
+    padding: 0 48px;
+    display: table;
+}
+
+.logo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #1d3e67;
+    white-space: nowrap;
+}
+
+.logo .blue,
+.cyan {
+    color: #08a9dc;
+}
+
+.logo sup {
+    font-size: 8px;
+    color: #08a9dc;
+    position: relative;
+    top: -14px;
+}
+
+.gear {
+    font-size: 30px;
+    color: #111111;
+    margin-right: 5px;
+}
+
+.navlinks {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.navlinks a {
+    font-size: 12px;
+    margin: 0 13px;
+    color: #222222;
+}
+
+.nav-cta {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #08a9dc;
+    border-radius: 20px;
+    padding: 11px 17px;
+    white-space: nowrap;
+}
+
+.nav-cta span {
+    background: #ffffff;
+    color: #08a9dc;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    height: 525px;
+    background: #1e3d66;
+    color: #ffffff;
+    padding: 72px 72px;
+    position: relative;
+}
+
+.hero-copy {
+    width: 600px;
+}
+
+.pill,
+.section-pill {
+    display: inline-block;
+    background: #ffffff;
+    color: #24436a;
+    border-radius: 16px;
+    padding: 6px 13px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 53px;
+    line-height: 52px;
+    margin: 22px 0 21px;
+    font-weight: 500;
+    letter-spacing: px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #e4edf6;
+}
+
+.hero-buttons {
+    margin-top: 31px;
+}
+
+.outline-btn,
+.filled-btn {
+    display: inline-block;
+    border: 1px solid #00a9df;
+    border-radius: 20px;
+    padding: 10px 19px;
+    font-size: 14px;
+    line-height: 12px;
+    margin-right: 8px;
+}
+
+.filled-btn {
+    background: #00a9df;
+    color: #ffffff;
+}
+
+.filled-btn b {
+    background: #ffffff;
+    color: #00a9df;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+
+.hero-img {
+    position: absolute;
+    right: 72px;
+    top: 72px;
+    width: 475px;
+    height: 380px;
+    object-fit: cover;
+}
+
+/* =========================================================
+   BRANDS
+========================================================= */
+
+.brands {
+    height: 220px;
+    padding: 82px 35px 0;
+    text-align: center;
+}
+
+.brands h6 {
+    font-size: 20px;
+    line-height: 12px;
+    margin: 0 0 28px;
+    color: #222222;
+}
+
+.brand-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.brand-row span {
+    display: table-cell;
+    font-size: 14px;
+    line-height: 12px;
+    color: #687080;
+    text-align: center;
+}
+
+/* =========================================================
+   SECTIONS
+========================================================= */
+
+.section {
+    padding: 0 36px;
+    margin-bottom: 120px;
+}
+
+.section-head {
+    display: table;
+    width: 100%;
+    margin-bottom: 62px;
+}
+
+.section-head > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.section-pill {
+    background: #08a9dc;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #333333;
+}
+
+/* =========================================================
+   STATS
+========================================================= */
+
+.stats {
+    width: 450px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.stats div {
+    display: inline-block;
+    width: 135px;
+    height: 100px;
+    border: 1px solid #dce2e7;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.stats strong {
+    display: block;
+    color: #00a9df;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.stats span {
+    display: block;
+    font-size: 17px;
+    line-height: 12px;
+    color: #333333;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.intro-grid {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.intro-grid > img {
+    width: 540px;
+    height: 410px;
+    object-fit: cover;
+    display: table-cell;
+}
+
+.feature-grid {
+    display: table-cell;
+    padding-left: 8px;
+    vertical-align: top;
+}
+
+.feature-grid article {
+    display: inline-block;
+    width: calc(50% - 6px);
+    height: 200px;
+    background: #91d8ef;
+    vertical-align: top;
+    margin: 0 0 5px;
+    padding: 20px;
+    color: #183e60;
+}
+
+.feature-grid h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 26px;
+    margin: 0 0 13px;
+    font-weight: 400;
+}
+
+.feature-grid p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    margin: 0;
+}
+
+/* =========================================================
+   TWO COLUMN SECTION
+========================================================= */
+
+.two-col {
+    margin-bottom: 80px;
+}
+
+.side-copy {
+    width: 440px !important;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+}
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.service-grid {
+    width: 100%;
+    font-size: 0;
+}
+
+.service-grid > div {
+    display: inline-block;
+    width: 25%;
+    height: 220px;
+    padding: 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+.service-grid img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.service-grid b {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    background: #06a9dc;
+    color: #ffffff;
+    font-size: 9px;
+    line-height: 11px;
+    padding: 4px 8px;
+}
+
+/* =========================================================
+   PRICING
+========================================================= */
+
+.pricing-section {
+    margin-top: 0;
+}
+
+.plans {
+    width: 100%;
+    font-size: 0;
+}
+
+.plan {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.2%;
+    margin-right: 1.7%;
+    min-height: 430px;
+    border: 1px solid #9fb2c9;
+    border-radius: 10px;
+    padding: 18px 15px;
+    font-size: 12px;
+}
+
+.plan:last-child {
+    margin-right: 0;
+}
+
+.plan h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.plan .price {
+    background: #c6d5e5;
+    margin: 0 -7px 12px;
+    padding: 12px;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #333333;
+    border-radius: 7px;
+}
+
+.plan.popular .price {
+    background: #1e3d66;
+    color: #ffffff;
+}
+
+.plan .price small {
+    font-size: 14px;
+}
+
+.plan p {
+    height: 55px;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 8px 0;
+}
+
+.plan > a {
+    display: block;
+    background: #00a9df;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 18px;
+    padding: 9px;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 12px 0 0;
+    margin: 0;
+}
+
+.plan li {
+    font-size: 15px;letter-spacing: 0.5px;
+    line-height: 23px;
+    color: #4e5b6b;
+}
+
+.plan li:before {
+    content: "✓ ";
+    color: #159bd0;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    margin-left: -58px;
+    background: #1e3d66;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 4px 13px;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+/* =========================================================
+   TESTIMONIALS
+========================================================= */
+
+.testimonials {
+    margin-bottom: 125px;
+}
+
+.reviews {
+    width: 100%;
+    font-size: 0;
+}
+
+.reviews article {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.2%;
+    height: 250px;
+    background: #78cde9;
+    border-radius: 8px;
+    margin-right: 1.7%;
+    padding: 25px 22px;
+}
+
+.reviews article:last-child {
+    margin-right: 0;
+}
+
+.reviews p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: italic;
+    margin: 0;
+}
+
+.reviews b {
+    position: absolute;
+    bottom: 42px;
+    left: 75px;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+.reviews small {
+    position: absolute;
+    bottom: 24px;
+    left: 75px;
+    font-size: 7px;
+    line-height: 9px;
+}
+
+.reviews span {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    font-size: 85px;
+    line-height: 85px;
+    color: #55b6d7;
+    font-weight: bold;
+}
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact {
+    display: table;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.contact-copy,
+.contact form {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.contact-copy {
+    width: 48%;
+    padding-right: 35px;
+}
+
+.contact h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 12px;
+}
+
+.contact-copy > p {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 20px;
+}
+
+.contact-item {
+    display: table;
+    margin: 14px 0;
+}
+
+.contact-item b {
+    display: table-cell;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #d6e0e9;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1e3d66;
+    font-size: 20px;
+}
+
+.contact-item span {
+    display: table-cell;
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.contact-item strong {
+    font-size: 14px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.contact form {
+    width: 52%;
+    border: 1px solid #d7dfe7;
+    border-radius: 6px;
+    padding: 22px;
+}
+
+.contact label {
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 12px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #d7dfe7;
+    border-radius: 4px;
+    margin-top: 6px;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    height: 35px;
+    background: #ffffff;
+}
+
+.contact textarea {
+    height: 82px;
+    resize: none;
+}
+
+.contact button {
+    width: 100%;
+    height: 34px;
+    border: 0;
+    border-radius: 4px;
+    background: #1e3d66;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #d9f2fb;
+    padding: 38px 36px 14px;
+}
+
+.footer-top {
+    display: table;
+    width: 100%;
+}
+
+.footer-top > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.footer-logo {
+    font-size: 24px;
+}
+
+.footer-top p {
+    font-size: 10px;
+    margin: 22px 0 10px;
+}
+
+.subscribe {
+    display: table;
+    width: 300px;
+}
+
+.subscribe input {
+    display: table-cell;
+    width: 230px;
+    border: 0;
+    border-radius: 16px 0 0 16px;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+.subscribe button {
+    display: table-cell;
+    width: 70px;
+    border: 0;
+    border-radius: 0 16px 16px 0;
+    background: #1e3d66;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.footer-top small {
+    font-size: 8px;
+    line-height: 11px;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-links {
+    width: 300px;
+}
+
+.footer-links > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.footer-links b,
+.footer-links a {
+    display: block;
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.copyright {
+    border-top: 1px solid rgba(30, 61, 102, 0.12);
+    margin-top: 24px;
+    padding-top: 10px;
+    font-size: 7px;
+    color: #596675;
+    display: table;
+    width: 100%;
+}
+
+.copyright span {
+    display: table-cell;
+}
+
+.copyright span:last-child {
+    text-align: right;
+}
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1500px) {
+    .site {
+        max-width: 1400px;
+    }
+
+    .header,
+    .nav {
+        height: 88px;
+    }
+
+    .nav {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .logo {
+        font-size: 30px;
+        width: 340px;
+    }
+
+    .gear {
+        font-size: 33px;
+    }
+
+    .navlinks a {
+        font-size: 13px;
+        margin: 0 16px;
+    }
+
+    .nav-cta {
+        font-size: 12px;
+    }
+
+    .hero {
+        height: 570px;
+        padding: 80px 80px;
+    }
+
+    .hero-copy {
+        width: 650px;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+        line-height: 57px;
+    }
+
+    .hero-img {
+        width: 510px;
+        height: 415px;
+        right: 80px;
+        top: 80px;
+    }
+
+    h2 {
+        font-size: 53px;
+        line-height: 53px;
+    }
+
+    .intro-grid > img {
+        width: 590px;
+        height: 450px;
+    }
+
+    .feature-grid article {
+        height: 220px;
+    }
+
+    .feature-grid h3 {
+        font-size: 28px;
+        line-height: 29px;
+    }
+
+    .feature-grid p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+    .site {
+        max-width: 100%;
+    }
+
+    .nav {
+        padding: 0 25px;
+    }
+
+    .logo {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    .gear {
+        font-size: 25px;
+    }
+
+    .navlinks a {
+        font-size: 8px;
+        margin: 0 7px;
+    }
+
+    .nav-cta {
+        font-size: 8px;
+        padding: 8px 10px;
+    }
+
+    .hero {
+        height: 430px;
+        padding: 50px 45px;
+    }
+
+    .hero-copy {
+        width: 48%;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+        line-height: 38px;
+    }
+
+    .hero p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .hero-img {
+        right: 45px;
+        top: 50px;
+        width: 43%;
+        height: 330px;
+    }
+
+    .brands {
+        height: 190px;
+        padding-top: 65px;
+    }
+
+    .section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    .stats {
+        width: 330px;
+    }
+
+    .stats div {
+        width: 98px;
+        height: 80px;
+    }
+
+    .stats strong {
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .stats small {
+        font-size: 7px;
+    }
+
+    .intro-grid > img {
+        width: 47%;
+        height: 350px;
+    }
+
+    .feature-grid {
+        width: 53%;
+    }
+
+    .feature-grid article {
+        height: 170px;
+        padding: 14px;
+    }
+
+    .feature-grid h3 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+
+    .feature-grid p {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .side-copy {
+        width: 40% !important;
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .service-grid > div {
+        height: 180px;
+    }
+
+    .service-grid img {
+        height: 170px;
+    }
+
+    .plan {
+        min-height: 380px;
+    }
+
+    .reviews article {
+        height: 230px;
+    }
+
+    .reviews p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .contact-copy {
+        width: 43%;
+    }
+
+    .contact form {
+        width: 57%;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+    .site {
+        width: 100%;
+        max-width: 447px;
+    }
+
+    body {
+        font-size: 11px;
+    }
+
+    .header {
+        height: 30px;
+    }
+
+    .nav {
+        height: 30px;
+        padding: 0 12px;
+    }
+
+    .logo {
+        display: table-cell;
+        width: 155px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .logo sup {
+        font-size: 4px;
+        top: -8px;
+    }
+
+    .gear {
+        font-size: 17px;
+    }
+
+    .navlinks a {
+        font-size: 5px;
+        margin: 0 2px;
+    }
+
+    .nav-cta {
+        font-size: 5px;
+        padding: 5px 7px;
+    }
+
+    .hero {
+        height: 209px;
+        padding: 25px 14px;
+    }
+
+    .hero-copy {
+        width: 220px;
+    }
+
+    .pill,
+    .section-pill {
+        padding: 3px 7px;
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+        line-height: 19px;
+        margin: 11px 0 8px;
+        letter-spacing: 0;
+    }
+
+    .hero p {
+        font-size: 5.2px;
+        line-height: 7px;
+    }
+
+    .hero-buttons {
+        margin-top: 12px;
+    }
+
+    .outline-btn,
+    .filled-btn {
+        border-radius: 9px;
+        padding: 4px 8px;
+        font-size: 5px;
+    }
+
+    .hero-img {
+        right: 14px;
+        top: 25px;
+        width: 167px;
+        height: 158px;
+    }
+
+    .brands {
+        height: 107px;
+        padding: 40px 12px 0;
+    }
+
+    .brands h6 {
+        font-size: 5px;
+        margin-bottom: 12px;
+    }
+
+    .brand-row span {
+        font-size: 5px;
+    }
+
+    .section {
+        padding: 0 13px;
+        margin-bottom: 48px;
+    }
+
+    .section-head {
+        margin-bottom: 26px;
+    }
+
+    h2 {
+        font-size: 21px;
+        line-height: 21px;
+        letter-spacing: 0;
+    }
+
+    .stats {
+        width: 168px;
+    }
+
+    .stats div {
+        width: 53px;
+        height: 41px;
+        padding-top: 5px;
+        margin-left: 2px;
+    }
+
+    .stats strong {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .stats small {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .intro-grid > img {
+        width: 210px;
+        height: 200px;
+    }
+
+    .feature-grid {
+        padding-left: 3px;
+    }
+
+    .feature-grid article {
+        width: calc(50% - 2px);
+        height: 77px;
+        margin-bottom: 2px;
+        padding: 6px;
+    }
+
+    .feature-grid h3 {
+        font-size: 12px;
+        line-height: 11px;
+        margin-bottom: 5px;
+    }
+
+    .feature-grid p {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .two-col {
+        margin-bottom: 38px;
+    }
+
+    .side-copy {
+        width: 177px !important;
+        padding-top: 35px;
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .service-grid > div {
+        height: 95px;
+        padding: 2px;
+    }
+
+    .service-grid img {
+        height: 90px;
+    }
+
+    .service-grid b {
+        left: 3px;
+        top: 4px;
+        font-size: 4px;
+        padding: 2px 4px;
+    }
+
+    .plan {
+        min-height: 182px;
+        padding: 7px 6px;
+    }
+
+    .plan h3 {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .plan .price {
+        padding: 5px;
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .plan .price small {
+        font-size: 5px;
+    }
+
+    .plan p {
+        height: 24px;
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .plan > a {
+        padding: 4px;
+        font-size: 5px;
+    }
+
+    .plan li {
+        font-size: 5px;
+        line-height: 12px;
+    }
+
+    .popular-tag {
+        top: -7px;
+        left: 30px;
+        margin-left: 0;
+        padding: 2px 7px;
+        font-size: 4px;
+        line-height: 5px;
+    }
+
+    .reviews article {
+        height: 119px;
+        padding: 12px 10px;
+    }
+
+    .reviews p {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .reviews b {
+        bottom: 17px;
+        left: 38px;
+        font-size: 5px;
+    }
+
+    .reviews small {
+        bottom: 9px;
+        left: 38px;
+        font-size: 4px;
+    }
+
+    .reviews span {
+        right: 12px;
+        font-size: 39px;
+        line-height: 39px;
+    }
+
+    .contact {
+        display: table;
+        width: 100%;
+    }
+
+    .contact-copy {
+        width: 185px;
+    }
+
+    .contact form {
+        width: 236px;
+        padding: 10px;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+
+    .contact-copy > p {
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .contact-item b {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .contact-item span {
+        padding-left: 7px;
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .contact input,
+    .contact select,
+    .contact textarea {
+        padding: 5px;
+        font-size: 5px;
+        line-height: 6px;
+        height: 18px;
+    }
+
+    .contact textarea {
+        height: 40px;
+    }
+
+    .contact button {
+        height: 16px;
+        font-size: 5px;
+    }
+
+    footer {
+        padding: 17px 13px 6px;
+    }
+
+    .footer-logo {
+        font-size: 13px;
+    }
+
+    .footer-top p {
+        font-size: 5px;
+    }
+
+    .subscribe {
+        width: 130px;
+    }
+
+    .subscribe input {
+        width: 100px;
+        padding: 5px;
+        font-size: 5px;
+    }
+
+    .subscribe button {
+        width: 30px;
+        font-size: 5px;
+    }
+
+    .footer-links {
+        width: 120px;
+    }
+
+    .footer-links b,
+    .footer-links a {
+        font-size: 5px;
+        line-height: 10px;
+    }
+
+    .footer-top small {
+        font-size: 4px;
+        line-height: 5px;
+    }
+
+    .copyright {
+        font-size: 4px;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 390px) {
+    .navlinks {
+        display: none;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .nav-cta {
+        text-align: right;
+    }
+
+    .hero-img {
+        width: 145px;
+    }
+
+    .hero-copy {
+        width: 205px;
+    }
+
+    .hero h1 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .stats {
+        display: none;
+    }
+
+    .intro-grid > img {
+        width: 49%;
+    }
+
+    .feature-grid {
+        width: 51%;
+    }
+
+    .side-copy {
+        display: none !important;
+    }
+
+    .plan {
+        min-height: 195px;
+    }
+}
